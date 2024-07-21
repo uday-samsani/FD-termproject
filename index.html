@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zuicer - Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script defer src="js/nav.js"></script>
 </head>
 
 <body>
     <header>
         <img src="./static/banner.jpg" alt="Zuicer Banner" id="banner">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="shop.html">Shop</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact Us</a>
+            <div class="nav-container">
+                <a href="index.html" class="brand">Zuicer</a>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="training.html">Training</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
